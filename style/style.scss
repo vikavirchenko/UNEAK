@@ -1,0 +1,143 @@
+$font-Tomorrow: "Tomorrow", Arial, sans-serif;
+$font-Sintony: "Sintony", Arial, sans-serif;
+
+.page-text {
+  font-family: $font-Tomorrow;
+}
+.style-text {
+  font-family: $font-Sintony;
+}
+
+.nav {
+  display: flex;
+  height: 110px;
+  align-items: center;
+  &__logo {
+    margin-right: auto;
+    width: 238px;
+    height: 24px;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    &-link {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 26px;
+      letter-spacing: 0.04em;
+      text-align: left;
+      text-decoration: none;
+      color: #000000;
+      &--position {
+        display: flex;
+        align-items: center;
+      }
+    }
+    &-item {
+      list-style: none;
+      margin-left: 20px;
+      &--margin {
+        margin-left: 0;
+      }
+    }
+  }
+}
+.container {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.icon-cart {
+  margin-left: 10px;
+}
+
+.first-block {
+  background: linear-gradient(
+    90deg,
+    rgba(233, 241, 227, 1) 24%,
+    rgba(220, 220, 218, 1) 86%
+  );
+  height: 610px;
+  &__img {
+    width: 533px;
+    height: 355px;
+    display: block;
+    margin: 0 auto;
+  }
+  &__text {
+    font-family: $font-Tomorrow;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 78.4px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 38px;
+  }
+}
+
+.second-block {
+  height: 610px;
+  display: flex;
+  padding-top: 158px;
+  &__img {
+    width: 288px;
+    height: 288px;
+    margin-right: 32px;
+  }
+  &__text {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+  }
+  &__wrapper {
+    margin-right: 105px;
+  }
+}
+
+.third-block {
+  height: 862px;
+  background: linear-gradient(
+    90deg,
+    rgba(133, 160, 134, 1) 0%,
+    rgba(71, 72, 45, 1) 80%
+  );
+  padding: 214px 205px 197px;
+  &__text {
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 78.4px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+  }
+}
+.fourth-block {
+  height: 855px;
+  padding-top: 122px;
+  padding-bottom: 122px;
+  display: flex;
+  &__img {
+    width: 606px;
+    height: 608px;
+    margin-right: 136px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  &__paragraf {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    text-align: left;
+    margin-bottom: 64px;
+  }
+  &__text {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.4px;
+    text-align: left;
+  }
+}
